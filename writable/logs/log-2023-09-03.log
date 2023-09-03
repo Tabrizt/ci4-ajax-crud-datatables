@@ -1,0 +1,252 @@
+CRITICAL - 2023-09-03 01:54:10 --> unlink(img/default.jpg): No such file or directory
+in APPPATH\Controllers\Mahasiswa.php on line 229.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/default.jpg): No such file or directory', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 229)
+ 2 APPPATH\Controllers\Mahasiswa.php(229): unlink('img/default.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->UpdateMahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-09-03 01:57:08 --> unlink(img/default.jpg): No such file or directory
+in APPPATH\Controllers\Mahasiswa.php on line 229.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/default.jpg): No such file or directory', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 229)
+ 2 APPPATH\Controllers\Mahasiswa.php(229): unlink('img/default.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->UpdateMahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-09-03 02:39:52 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 41.
+ 1 APPPATH\Controllers\Mahasiswa.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-09-03 02:40:00 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 41.
+ 1 APPPATH\Controllers\Mahasiswa.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:04:07 --> mysqli_sql_exception: Unknown column 'tb_prodi.mhs' in 'on clause' in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:04:07 --> Unknown column 'tb_prodi.mhs' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_mhs`.`prodi` = `tb_prodi`.`mhs`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_mhs`.`prodi` = `tb_prodi`.`mhs`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_mhs`.`prodi` = `tb_prodi`.`mhs`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_mhs`.`prodi` = `tb_prodi`.`mhs`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:29:56 --> mysqli_sql_exception: Unknown column 'mhs.prodi' in 'on clause' in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:29:56 --> Unknown column 'mhs.prodi' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:30:09 --> mysqli_sql_exception: Unknown column 'mhs.prodi' in 'on clause' in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:30:09 --> Unknown column 'mhs.prodi' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:30:11 --> mysqli_sql_exception: Unknown column 'mhs.prodi' in 'on clause' in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:30:11 --> Unknown column 'mhs.prodi' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `mhs`.`prodi`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-09-03 03:34:07 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Mahasiswa.php on line 40.
+ 1 APPPATH\Controllers\Mahasiswa.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:34:19 --> mysqli_sql_exception: Table 'tb_mhs.id' doesn't exist in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:34:19 --> Table 'tb_mhs.id' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-09-03 03:34:20 --> mysqli_sql_exception: Table 'tb_mhs.id' doesn't exist in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-09-03 03:34:20 --> Table 'tb_mhs.id' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`.`id`
+LEFT JOIN `tb_prodi` ON `tb_prodi`.`id` = `tb_mhs`.`prodi`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa.php(37): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')

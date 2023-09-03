@@ -1,0 +1,172 @@
+CRITICAL - 2023-08-29 03:15:17 --> syntax error, unexpected token "class", expecting "{"
+in APPPATH\Controllers\Mahasiswa.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 03:15:20 --> syntax error, unexpected token "class", expecting "{"
+in APPPATH\Controllers\Mahasiswa.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 04:11:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\MahasiswaModel.php on line 22.
+ 1 APPPATH\Controllers\Mahasiswa.php(22): App\Models\MahasiswaModel->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 04:14:20 --> Cannot use object of type stdClass as array
+in APPPATH\Views\mahasiswa\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('mahasiswa/index', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(25): view('mahasiswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 04:14:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\mahasiswa\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('mahasiswa/index', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(25): view('mahasiswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-08-29 08:04:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'mahasiswa', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(22): App\Models\MahasiswaModel->getAll()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(22): App\Models\MahasiswaModel->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#12 {main}
+CRITICAL - 2023-08-29 08:04:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Mahasiswa.php(22): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 10:12:52 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Mahasiswa.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 11:00:01 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php on line 27
+in SYSTEMPATH\Model.php on line 701.
+ 1 APPPATH\Models\MahasiswaModel.php(27): CodeIgniter\Model->insert('tb_mhs', [...])
+ 2 APPPATH\Controllers\Mahasiswa.php(76): App\Models\MahasiswaModel->SaveMhs([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->SaveMhs()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-29 11:00:36 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php on line 27
+in SYSTEMPATH\Model.php on line 701.
+ 1 APPPATH\Models\MahasiswaModel.php(27): CodeIgniter\Model->insert('tb_mhs', [...])
+ 2 APPPATH\Controllers\Mahasiswa.php(76): App\Models\MahasiswaModel->SaveMhs([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->SaveMhs()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+ERROR - 2023-08-29 13:11:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'mahasiswa', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(24): App\Models\MahasiswaModel->getAll()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\app\Controllers\Mahasiswa.php(24): App\Models\MahasiswaModel->getAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\ajax_crud\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#12 {main}
+CRITICAL - 2023-08-29 13:11:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mhs`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(22): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Mahasiswa.php(24): App\Models\MahasiswaModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')

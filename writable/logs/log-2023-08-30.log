@@ -1,0 +1,242 @@
+CRITICAL - 2023-08-30 02:07:09 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 38.
+ 1 APPPATH\Controllers\Mahasiswa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:08:16 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 38.
+ 1 APPPATH\Controllers\Mahasiswa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:18:56 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:18:59 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:21:03 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:21:06 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:21:15 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:21:31 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:21:49 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:24:01 --> syntax error, unexpected single-quoted string ")"><i class="fas fa-pencil-alt..."
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:24:05 --> syntax error, unexpected single-quoted string ")"><i class="fas fa-pencil-alt..."
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:24:34 --> Attempt to read property "nama" on array
+in APPPATH\Controllers\Mahasiswa.php on line 42.
+ 1 APPPATH\Controllers\Mahasiswa.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:40:26 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:47:35 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:48:34 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:49:14 --> Attempt to read property "nama" on array
+in APPPATH\Controllers\Mahasiswa.php on line 42.
+ 1 APPPATH\Controllers\Mahasiswa.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:49:59 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:54:27 --> Undefined variable $controller
+in APPPATH\Views\mahasiswa\index.php on line 101.
+ 1 APPPATH\Views\mahasiswa\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Views\\mahasiswa\\index.php', 101)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Views\\mahasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('mahasiswa/index', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:55:17 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 02:59:36 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:01:26 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:01:29 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:01:43 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:02:44 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:02:46 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:02:47 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:02:49 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 03:03:34 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Mahasiswa.php on line 37.
+ 1 APPPATH\Controllers\Mahasiswa.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
+CRITICAL - 2023-08-30 15:08:38 --> syntax error, unexpected variable "$ubahdata"
+in APPPATH\Controllers\Mahasiswa.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\ajax_crud\\public\\index.php')
