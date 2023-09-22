@@ -255,8 +255,6 @@
   function TambahMahasiswa() {
     var form = $('#form_tambah_mhs');
     var formData = new FormData(form[0]);
-    $('#add_mhs').attr('disabled');
-    $("#add_mhs").html('<i class="fa fa-spin fa-spinner"></i> Loading...');
     $.ajax({
       url: "<?= base_url(); ?>mahasiswa/TambahMahasiswa",
       type: "post",
@@ -317,6 +315,13 @@
           }
 
         } else {
+          $('#add_mhs').on("click", function() {
+            setTimeout(function() {
+              $('#add_mhs').attr('disabled');
+              $("#add_mhs").html('<i class="fa fa-spin fa-spinner"></i> Loading...');
+            }, 2000);
+          });
+
           if (respon.status) {
             $('#tambahMhs').modal('hide');
             Swal.fire({
@@ -355,7 +360,7 @@
         $("#form_ubah_mhs #nim_mhs").val(respon.nim);
         $("#form_ubah_mhs #jenkel_mhs").val(respon.jen_kel);
         $("#form_ubah_mhs #kelas_mhs").val(respon.kelas);
-        $("#form_ubah_mhs #prodi_mhs").val(respon.prodi);
+        $("#form_ubah_mhs #prodi_mhs").val(respon.prodi_id);
       }
     });
   }
@@ -363,8 +368,6 @@
   function UpdateMahasiswa() {
     var form = $('#form_ubah_mhs');
     var formData = new FormData(form[0]);
-    $('#edit_mhs').attr('disabled');
-    $("#edit_mhs").html('<i class="fa fa-spin fa-spinner"></i> Loading...');
     $.ajax({
       url: "<?= base_url() ?>mahasiswa/UpdateMahasiswa",
       type: "post",
@@ -375,6 +378,13 @@
       processData: false, // Don't process data, let jQuery handle it
       dataType: "json",
       success: function(respon) {
+        $('#add_mhs').on("click", function() {
+          setTimeout(function() {
+            $('#add_mhs').attr('disabled');
+            $("#add_mhs").html('<i class="fa fa-spin fa-spinner"></i> Loading...');
+          }, 2000);
+        });
+
         if (respon.status) {
           $('#editMhs').modal('hide');
           Swal.fire({

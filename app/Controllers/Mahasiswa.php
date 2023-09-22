@@ -49,7 +49,7 @@ class Mahasiswa extends BaseController
         $no,
         $value->nama,
         $value->nim,
-        $value->jen_kel,
+        $value->jen_kel == "L" ? "Laki-laki" : "Perempuan",
         $value->kelas,
         $value->nama_prodi,
         $img,
@@ -157,15 +157,12 @@ class Mahasiswa extends BaseController
           $fileFoto->move('img', $namaFoto);
         }
 
-        // var_dump($namaFoto);
-        // die();
-
         $simpandata = [
           'nama' => $this->request->getPost('nama_mhs'),
           'nim' => $this->request->getPost('nim_mhs'),
           'jen_kel' => $this->request->getPost('jenkel_mhs'),
           'kelas' => $this->request->getPost('kelas_mhs'),
-          'prodi' => $this->request->getPost('prodi_mhs'),
+          'prodi_id' => $this->request->getPost('prodi_mhs'),
           'foto' => $namaFoto,
         ];
 
@@ -207,12 +204,12 @@ class Mahasiswa extends BaseController
       ]);
 
       if (!$valid) {
-        $msg = [
+        $respon = [
           'error' => [
-            'u_foto_mhs' => $this->validation->getError('foto_mhs'),
+            'foto_mhs' => $this->validation->getError('foto_mhs'),
           ]
         ];
-        echo json_encode($msg);
+        echo json_encode($respon);
       } else {
         // ambil gambar
         $fileFoto = $this->request->getFile('foto_mhs');
@@ -232,17 +229,12 @@ class Mahasiswa extends BaseController
           // unlink('img/' . $this->request->getPost('ofoto_mhs'));
         }
 
-
-        // $kelas = $this->request->getPost('kelas_mhs');
-        // var_dump($kelas);
-        // die();
-
         $ubahdata = [
           'nama' => $this->request->getPost('nama_mhs'),
           'nim' => $this->request->getPost('nim_mhs'),
           'jen_kel' => $this->request->getPost('jenkel_mhs'),
           'kelas' => $this->request->getPost('kelas_mhs'),
-          'prodi' => $this->request->getPost('prodi_mhs'),
+          'prodi_id' => $this->request->getPost('prodi_mhs'),
           'foto' => $namaFoto,
         ];
 

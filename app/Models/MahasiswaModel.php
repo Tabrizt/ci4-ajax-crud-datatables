@@ -14,15 +14,15 @@ class MahasiswaModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'nama', 'nim', 'jen_kel', 'kelas', 'prodi', 'foto'
+        'nama', 'nim', 'jen_kel', 'kelas', 'prodi_id', 'foto'
     ];
 
     public function getAll()
     {
-        $GetData = "SELECT tb_mhs.*, tb_prodi.prodi AS nama_prodi FROM tb_mhs LEFT JOIN tb_prodi ON tb_mhs.prodi = tb_prodi.id";
+        $GetData = "SELECT tb_mhs.*, tb_prodi.prodi AS nama_prodi FROM tb_mhs LEFT JOIN tb_prodi ON tb_mhs.prodi_id = tb_prodi.id";
         $GetData = $this->db->query($GetData)->getResultObject();
         return $GetData;
-        // return $this->db->table('tb_mhs')->join('tb_prodi', 'tb_prodi.id = tb_mhs.prodi')->get()->getResultObject();
+        // return $this->db->table('tb_mhs')->join('tb_prodi', 'tb_prodi.id = tb_mhs.prodi_id')->get()->getResultObject();
     }
 
     public function TambahDataMahasiswa($simpandata)
@@ -32,7 +32,7 @@ class MahasiswaModel extends Model
 
     public function UpdateDataMahasiswa($id, $ubahdata)
     {
-        return $this->update($id, $ubahdata);
+        return $this->update(["id" => $id], $ubahdata);
     }
 
     public function HapusDataMahasiswa($id)
